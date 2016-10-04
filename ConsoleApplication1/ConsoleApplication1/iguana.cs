@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class iguana:reptiles
+    public class iguana:reptiles
     {
         private bool canregrowtail;
         private bool coldblooded;
+        public iguana()
+        {
 
+        }
         public bool Canregrowtail
         {
             get

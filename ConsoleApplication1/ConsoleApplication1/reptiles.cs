@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class reptiles:Animals
+    public class reptiles:Animals
     {
         private bool haveclaws;
         private bool havetails;

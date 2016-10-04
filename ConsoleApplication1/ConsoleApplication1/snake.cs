@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class snake:reptiles
+    public class snake:reptiles
     {
         private int numberoflegs;
         private int hasbones;
+        public snake()
+        {
+
+        }
 
         public int Numberoflegs
         {
