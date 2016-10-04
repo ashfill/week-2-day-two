@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Program
+    class birds:Animals
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        private int havewings;
+        private bool canfly;
     }
 }
