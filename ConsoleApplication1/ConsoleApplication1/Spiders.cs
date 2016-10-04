@@ -11,6 +11,10 @@ namespace ConsoleApplication1
         private bool canspinweb;
         private bool cancrawlupwalls;
 
+        public Spiders()
+        {
+        }
+
         public bool Canspinweb
         {
             get

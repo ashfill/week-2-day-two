@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Scopions:arachnids
+    public class Scopions:arachnids
     {
         private int haspincers;
         private bool canbepoisonous;
+
+        public Scopions()
+        {
+
+        }
 
         public int Haspincers
         {

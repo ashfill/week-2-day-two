@@ -12,6 +12,7 @@ namespace ConsoleApplication1
         private bool carnivors;
         private bool haveskin;
 
+
         public bool Canswim
         {
             get
@@ -52,4 +53,4 @@ namespace ConsoleApplication1
         }
     }
     }
-}
+

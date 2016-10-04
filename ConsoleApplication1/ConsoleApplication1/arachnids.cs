@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class arachnids:Animals
+   public class arachnids:Animals
     {
         private int havelegs;
-        private int havetwobodysections;
+        private int bodysections;
 
         public int Havelegs
         {
@@ -24,16 +24,16 @@ namespace ConsoleApplication1
             }
         }
 
-        public int Havetwobodysections
+        public int Bodysections
         {
             get
             {
-                return havetwobodysections;
+                return bodysections;
             }
 
             set
             {
-                havetwobodysections = value;
+                bodysections = value;
             }
         }
     }
