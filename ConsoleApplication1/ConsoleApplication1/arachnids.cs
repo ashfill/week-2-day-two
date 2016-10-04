@@ -10,5 +10,31 @@ namespace ConsoleApplication1
     {
         private int havelegs;
         private int havetwobodysections;
+
+        public int Havelegs
+        {
+            get
+            {
+                return havelegs;
+            }
+
+            set
+            {
+                havelegs = value;
+            }
+        }
+
+        public int Havetwobodysections
+        {
+            get
+            {
+                return havetwobodysections;
+            }
+
+            set
+            {
+                havetwobodysections = value;
+            }
+        }
     }
 }

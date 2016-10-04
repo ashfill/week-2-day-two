@@ -10,5 +10,31 @@ namespace ConsoleApplication1
     {
         private int havewings;
         private bool canfly;
+
+        public int Havewings
+        {
+            get
+            {
+                return havewings;
+            }
+
+            set
+            {
+                havewings = value;
+            }
+        }
+
+        public bool Canfly
+        {
+            get
+            {
+                return canfly;
+            }
+
+            set
+            {
+                canfly = value;
+            }
+        }
     }
 }
