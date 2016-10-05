@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class tucan:birds
+   public class tucan:birds
     {
         private int livesinsmallflock;//flock of 6
         private bool livesintreehole;
 
+        public tucan()
+        {
+
+        }
         public int Livesinsmallflock
         {
             get

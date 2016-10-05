@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class birds:Animals
+    public class birds:Animals
     {
         private int havewings;
         private bool canfly;
 
+        public birds()
+        {
+
+        }
         public int Havewings
         {
             get
